@@ -20,5 +20,8 @@
             "src/View.php",
             "src/Model.php"
         ]
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0"
     }
 }

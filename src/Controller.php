@@ -1,9 +1,11 @@
 <?php
+
 declare(strict_types=1);
 
 namespace artemaaaaaaaaaaaaaaaaaaa\progression\Controller;
 
 use PDO;
+
 use function artemaaaaaaaaaaaaaaaaaaa\progression\Model\connectDatabase;
 use function artemaaaaaaaaaaaaaaaaaaa\progression\Model\createRound;
 use function artemaaaaaaaaaaaaaaaaaaa\progression\Model\fetchHistory;

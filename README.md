@@ -11,6 +11,7 @@
 
 ## Запуск глобально (через Packagist)
 1. Установить пакет глобально: `composer global require artemaaaaaaaaaaaaaaaaaaa/progression`
+При конфликте зависимостей можно установить разово так: `composer global require artemaaaaaaaaaaaaaaaaaaa/progression -W`
 2. Узнать путь к глобальному `bin`:
 `composer global config bin-dir --absolute`
 3. Добавить этот путь в `PATH`

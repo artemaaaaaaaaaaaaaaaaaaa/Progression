@@ -2,6 +2,8 @@
 <?php
 declare(strict_types=1);
 
+use function artemaaaaaaaaaaaaaaaaaaa\progression\Controller\startGame;
+
 // Support both repo runs and Composer-installed runs (global/local).
 $autoloadCandidates = [
     __DIR__ . '/../vendor/autoload.php',      // when running from repo root
@@ -21,7 +23,5 @@ if (!$autoloadFound) {
     fwrite(STDERR, "Autoloader not found. Run composer install.\n");
     exit(1);
 }
-
-use function artemaaaaaaaaaaaaaaaaaaa\progression\Controller\startGame;
 
 startGame($argv);
