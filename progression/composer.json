@@ -1,0 +1,24 @@
+{
+    "name": "artemaaaaaaaaaaaaaaaaaaa/progression",
+    "description": "Arithmetic progression CLI game",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artem"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.7"
+    },
+    "bin": [
+        "bin/progression"
+    ],
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php",
+            "src/Model.php"
+        ]
+    }
+}
